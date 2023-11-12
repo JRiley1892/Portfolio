@@ -1,5 +1,5 @@
 header {
-  background: linear-gradient(to right, #2196f3, #0000cd, #00008b);
+  background: linear-gradient(to right, #2196f3, #2196f3, #2196f2);
   display: flex;
   position: absolute;
   height: 450px;
@@ -13,13 +13,13 @@ header {
   position: absolute;
   background: none;
   border: none;
-  color: #ff4500;
+  color: #fd4b0a;
   font-family: "Montserrat Subrayada", sans-serif;
   text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
 }
 
 .title {
-  color: #ff4500;
+  color: #fd4b0a;
   font-family: "Montserrat Subrayada", sans-serif;
   text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
   position: absolute;
@@ -81,9 +81,9 @@ header {
 #text {
   position: absolute;
   font-family: "Inconsolata", monospace;
-  font-size: 25px;
+  font-size: 30px;
   left: 100px;
-  top: 250px;
+  top: 200px;
 }
 .profile {
   position: absolute;
@@ -95,14 +95,14 @@ header {
 }
 .button {
   position: absolute;
-  width: 105px;
+  /* width: 105px;
   left: 100px;
-  bottom: 270px;
+  bottom: 270px; */
   background-color: #2196f3;
   color: white;
   padding: 1rem 2rem;
   font-family: "Inconsolata", monospace;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 5px;
 }
 .button.submit {
@@ -120,32 +120,20 @@ header {
   width: 100%;
   margin-top: 1500px;
   z-index: auto;
-}
-.html-logo {
-  position: absolute;
-  top: 300px;
-  left: 200px;
-  height: 300px;
-}
-.css-logo {
-  position: absolute;
-  top: 284px;
-  left: 534px;
-  height: 354px;
-}
-.js-logo {
-  position: absolute;
-  top: 342px;
-  left: 934px;
-  height: 294px;
-}
-.react-logo {
-  position: absolute;
-  top: 300px;
-  left: 1300px;
-  height: 334px;
-}
 
+  .logo {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 350px;
+  }
+  .react-logo {
+    position: absolute;
+    top: 250px;
+    left: 1200px;
+    height: 250px;
+  }
+}
 /* section-3 */
 
 .section-3 {

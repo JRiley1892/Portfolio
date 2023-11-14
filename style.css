@@ -1,5 +1,6 @@
 header {
-  background: linear-gradient(to right, #2196f3, #2196f3, #2196f2);
+  text-align: center;
+  background: linear-gradient(to bottom, #2196f3, #53aef8, #ffffff);
   display: flex;
   position: absolute;
   height: 450px;
@@ -18,13 +19,26 @@ header {
   text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
 }
 
-.title {
+.name {
   color: #fd4b0a;
   font-family: "Montserrat Subrayada", sans-serif;
   text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
   position: absolute;
-  top: 50px;
-  left: 100px;
+
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+.occupation {
+  color: #fd4b0a;
+  font-family: "Montserrat Subrayada", sans-serif;
+  text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
+  position: absolute;
+
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 60px;
 }
 .btn--text {
@@ -37,6 +51,19 @@ header {
   top: 300px;
   left: 93px;
   font-size: 45px;
+}
+
+.title {
+  color: #fd4b0a;
+  font-family: "Montserrat Subrayada", sans-serif;
+  text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  /* top: 20%;
+  left: 50%; */
+  transform: translate(-50%, -50%);
+  font-size: 60px;
 }
 /* Picture animation */
 
@@ -123,15 +150,10 @@ header {
 
   .logo {
     position: absolute;
-    top: 200px;
-    left: 200px;
-    height: 350px;
-  }
-  .react-logo {
-    position: absolute;
-    top: 250px;
-    left: 1200px;
-    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 450px;
   }
 }
 /* section-3 */
@@ -207,8 +229,6 @@ button.submit:active {
   background-color: blue;
   box-shadow: 1px 1px 0px 1px whitesmoke;
 }
-
-/* media queries */
 /* Desktop */
 @media only screen and (min-width: 992px) {
   html {

@@ -25,7 +25,7 @@ header {
   text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
   position: absolute;
 
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 60px;
@@ -36,10 +36,19 @@ header {
   text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
   position: absolute;
 
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 60px;
+}
+
+.description {
+  color: rgb(68, 67, 67);
+  font-family: "Inconsolata", monospace;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .btn--text {
   background: none;
@@ -48,9 +57,16 @@ header {
   font-family: "Montserrat Subrayada", sans-serif;
   text-shadow: -1px 0 black, 0 3px black, 2px 0 black, 0 -1px black;
   position: absolute;
-  top: 300px;
-  left: 93px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 45px;
+  transition: color 0.3s ease;
+}
+
+.btn--text:hover {
+  color: #cc3f00;
+  transition: color 0.3s ease;
 }
 
 .title {
@@ -131,11 +147,6 @@ header {
   font-family: "Inconsolata", monospace;
   font-size: 20px;
   border-radius: 5px;
-}
-.button.submit {
-  position: absolute;
-  top: 10px;
-  left: 140px;
 }
 
 /* section 2 */

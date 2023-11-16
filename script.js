@@ -53,3 +53,9 @@ function checkSlide(e) {
 }
 
 window.addEventListener("scroll", debounce(checkSlide));
+
+//button hover
+
+const button = document.getElementById("button");
+
+button.addEventListener("mouseover", function () {});

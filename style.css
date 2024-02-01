@@ -253,7 +253,7 @@ header {
 .flex-container {
   position: absolute;
   top: 350px;
-  left: 10px;
+  /* right: 10px; */
   display: flex;
 }
 
@@ -262,7 +262,7 @@ header {
   /* margin: 2px; */
   padding: 225px;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   width: 260px;
 }
 
